@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jimmy.finalproject.ResultActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.44"
+        app:srcCompat="@drawable/no_image" />
+
+
+    <TextView
+        android:id="@+id/tv_emo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.44"
+        android:gravity="center"
+        android:text="尚無資料"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+
+        <ImageButton
+            android:id="@+id/ib_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.71"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/ib_plus"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1.01"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/plus" />
+    </LinearLayout>
+
+</LinearLayout>

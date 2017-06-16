@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jimmy.finalproject.PhotoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.03"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_local"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取得照片"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="上傳照片"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/ib_ok"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/okay"
+            android:layout_weight="0.79" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.04"
+        android:gravity="center_vertical"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pgb_load"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.04" />
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="283dp"
+        android:layout_height="276dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/no_image"
+        android:layout_weight="0.01" />
+</LinearLayout>

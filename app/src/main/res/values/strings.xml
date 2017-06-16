@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_maps">Map1</string>
+    <string name="faceSubscription_key">564f7d5ca4db4b98a1319360042c83a8</string>
+    <string name="subscription_key">6999a1270f9c4a8885d8795aa6b429fc</string>
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your two subscription keys for Emotion API/Face API to source file \"app/res/values/strings.xml\" to enable Emotion API and Face API calls.</string>
+
+</resources>
